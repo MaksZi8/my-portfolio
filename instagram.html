@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="instagral_div">
+        <div class="navbar">
+            <div class="icons">
+                <div class="part1">
+                    <div class="logo">
+                        <img class="svg_inst" src="Instagram_logo.svg.png" alt="">
+                    </div>
+                    <div class="icon1">
+                        <ion-icon class="drop_down" name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="icon2">
+                    <ion-icon class="svg_direct" name="chatbubble-outline"></ion-icon>
+                </div>
+            </div> 
+        </div>
+        <div class="take_post">
+            <div class="photos">
+                <img ondblclick="clickme(this)" id="photo" class="img_1" src="photo.jpg" alt="">
+            </div>
+            <div class="all_icons_part2">
+                <div class="icons_part2">
+                    <div class="icon01">
+                        <ion-icon onclick="ClickMe(this)" id="heart" name="heart-outline"></ion-icon>
+                        <img onclick="ClickMe(this)" id="img_like" src="like_img.jpg" alt="">
+                    </div>
+                    <div class="icon02">
+                        <ion-icon onclick="Coment()" class="svg_direct2" name="chatbubble-outline"></ion-icon>
+                    </div>
+                    <div class="icon03">
+                        <ion-icon class="share" name="paper-plane-outline"></ion-icon>
+                    </div> 
+                </div>
+
+                
+
+                <div class="book_mark">
+                    <ion-icon class="bookmark" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="likes">
+                <p id="number"> 88 </p>
+                <p class="word_like"> likes</p>
+            </div>
+
+           
+            <div class="coments">
+                <p class="opinion" id="no_metter" onclick="Coment()">
+                    Bu yili 2ta YouTube kumush yuttuk, keyingi yilda 2 ta aoltin nasp qilsin
+                    <p id="val_com" onclick="Coment()">  </p>
+                </p> 
+            </div>
+
+
+            <div id="commenttextku">
+                
+            </div>
+
+             
+            <div class="inp" ><ion-icon id="smile" name="happy-outline"></ion-icon><input type="text" placeholder="Write coment" name="" id="resive_coment"><ion-icon id="send"  onclick="davaysend()" name="send-outline"></ion-icon></div>
+            
+        </div>
+    </div>
+
+    
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

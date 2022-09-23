@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(162deg, rgba(2,0,36,1) 0%, rgba(144,3,153,1) 0%, rgba(115,0,143,0.9531162806919643) 14%, rgba(114,2,122,1) 19%, rgba(144,22,52,1) 41%, rgba(154,28,28,1) 71%, rgba(241,235,123,1) 95%, rgba(241,235,123,1) 100%);
+
+}
+.instagral_div{
+    background-color: #fff;
+    width: 500px;
+    height: 753px;
+    margin-left: 500px;
+}
+.svg_inst{
+    width: 150px;
+    height: 50px;
+}
+.logo{
+    margin-left: 10px;
+    width: 150px;
+    height: 50px;
+}
+.drop_down{
+    font-size: 20px;
+    cursor: pointer;
+}
+.part1{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    /* background-color: red; */
+    /* text-align: center; */
+    align-items: center;
+}
+.icon1{
+margin-top: 8px;
+}
+.svg_direct{
+    font-size: 29px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* background-color: red; */
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.img_1{
+    width: 500px;
+    height: 600px;
+    cursor: pointer;
+}
+#heart{
+    font-size: 30px;
+    /* background-color: red; */
+    cursor: pointer;
+}
+.share{
+    font-size: 28px;
+    /* background-color: blue; */
+    cursor: pointer;
+}
+.svg_direct2{
+    font-size: 28px;
+    cursor: pointer;
+    transform: rotate(0.75turn);
+}
+.icons_part2{
+    display: flex;
+    /* background-color: blueviolet; */
+    width: 120px;
+    justify-content: space-between;
+    margin-left: 10px;
+    position: relative;
+}
+.bookmark{
+    font-size: 27px;
+}
+.all_icons_part2{
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+    /* background-color: red; */
+}
+#number{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.word_like{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+.likes{
+    width: 100px;
+    /* background-color: red; */
+    height: 25px;
+    display: flex;
+}
+#img_like{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    margin-left: -25px;
+    /* background-color: red; */
+    margin-top: -4px;
+    cursor: pointer;
+    display: none;
+}  
+.opinion{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 540;
+}
+.opinion span{
+    color: #666;
+}
+
+#resive_coment{
+    outline: none;
+    width: 250px;
+    border: none;
+    background-color: rgb(176, 176, 176);
+    margin-left: 10px;
+}
+.inp{
+    width: 300px;
+    /* background-color: #666; */
+    display: flex;
+    margin-left: 10px;
+}
+#send{
+    margin-left: 10px;
+    font-size: 20px;
+}
+#smile{
+    font-size: 20px;
+} 
+#commenttextku h5 {
+    background-color: red;
+    width: 200px;
+    max
+}
